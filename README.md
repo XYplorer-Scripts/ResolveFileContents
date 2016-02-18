@@ -9,7 +9,7 @@ One useful scenario for this is to place templates containing variables within t
 ----------
 
 #### Usage
-1. [Download](./releases)
+1. [Download](https://github.com/XYplorer-Scripts/ResolveFileContents/releases/latest)
 2. Select files containing variables.
 3. Run *ResolveFileContents.xys*.
 
