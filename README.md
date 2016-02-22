@@ -53,6 +53,8 @@ further customization or usage by other scripts.
 #### Notes
 + Developed in response to this
 [question](http://www.xyplorer.com/xyfc/viewtopic.php?f=3&t=15467).
++ Discussion [thread](http://www.xyplorer.com/xyfc/viewtopic.php?p=135221#p135221)
+in XYplorer's Forums.
 + Developed by [TheQwerty](https://github.com/TheQwerty) -
 [contact](http://www.xyplorer.com/xyfc/memberlist.php?mode=viewprofile&u=438).
 
