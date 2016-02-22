@@ -4,13 +4,15 @@
 [XYplorer](http://xyplorer.com/index.php).**
 
 This script reads the selected items, interpolates variables within their
-contents, and writes the resolved content to sibling files with a '_resolved'
-suffix.
+contents, and writes the resolved content to copies to the original files with
+a '_resolved' suffix.
 
 One useful scenario for this is to place templates containing variables within
 the [New Items menu](http://www.xyplorer.com/highlights.php#newitems) and use
 it as normal. Then after using *New Items* this script can be run on the
-created files to create copies of those items with the variables resolved.
+created files to create copies of those items with the variables resolved. With
+some slight modifications (which are documented in the code) this script can
+overwrite the files instead or creating copies.
 
 ----------
 
@@ -23,12 +25,12 @@ contents.
 
 To ensure the maximum number of variables are available for use this script
 manipulates the selection so that the common `<cur*>` as well as the
-`<prop>` can return appropriate values for each individual file. By default an
-instant color filter will be applied to highlight which file is currently being
-transformed.
+`<prop>` variables can return appropriate values for each individual file. By
+default an instant color filter will be applied to highlight which file is
+currently being transformed.
 
 When all items have been processed the script will attempt to restore the
-original selection (included focused item) and any existing color filters.
+original selection (including focused item) and any existing color filters.
 
 
 ----------
@@ -43,7 +45,7 @@ original selection (included focused item) and any existing color filters.
 
 #### Tested On
 + Microsoft Windows 7 Professional SP1 x64
-+ XYplorer v16.20.0300
++ XYplorer v16.20.0305
 
 #### Notes
 + Developed in response to this
