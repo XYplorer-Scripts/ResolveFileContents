@@ -32,6 +32,9 @@ currently being transformed.
 When all items have been processed the script will attempt to restore the
 original selection (including focused item) and any existing color filters.
 
+In addition, a lot of the actual work is performed in functions allowing for
+further customization or usage by other scripts.
+
 
 ----------
 
