@@ -4,7 +4,7 @@
 [XYplorer](http://xyplorer.com/index.php).**
 
 This script reads the selected items, interpolates variables within their
-contents, and writes the resolved content to copies to the original files with
+contents, and writes the resolved content to copies of the original files with
 a '_resolved' suffix.
 
 One useful scenario for this is to place templates containing variables within
